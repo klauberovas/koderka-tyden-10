@@ -14,3 +14,13 @@ body {
 h2 {
 	margin-top: 50px;
 }
+
+.glide__slide img {
+  width: 100%;
+}
+
+.karta {
+  background-color: aqua;
+  padding: 30px;
+  min-height: 300px;
+}
