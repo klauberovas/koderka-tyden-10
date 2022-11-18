@@ -1,0 +1,17 @@
+@use 'barvy';
+
+.header {
+    border: 10px solid barvy.$primarni;
+    padding: 20px;
+    text-align: center;
+
+    &__title {
+        color: barvy.$primarni;
+        margin-top: 0;
+    }
+
+    &__subtitle {
+        margin-bottom: 0;
+        color: barvy.$seda;
+    }
+}

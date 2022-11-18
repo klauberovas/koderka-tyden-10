@@ -1,0 +1,8 @@
+@use 'barvy';
+
+.main {
+    margin: 20px 0;
+    padding: 20px;
+    border: 3px solid barvy.$seda;
+    overflow: auto;
+}

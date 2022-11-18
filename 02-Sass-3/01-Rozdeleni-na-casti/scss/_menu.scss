@@ -1,0 +1,32 @@
+@use 'barvy';
+
+.menu {
+    background-color: barvy.$primarni;
+
+    &__list {
+        margin: 0;
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    &__item:not(:last-child) {
+        border-right: 1px solid white;
+    }
+
+    &__link {
+        display: block;
+        padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover,
+        &:focus {
+            background-color: white;
+            color: barvy.$primarni;
+        }
+    }
+
+}

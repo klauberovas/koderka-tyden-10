@@ -1,0 +1,22 @@
+@use 'barvy';
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: Georgia, serif;
+}
+
+h1,
+h2,
+h3 {
+    color: barvy.$doplnkova;
+}
